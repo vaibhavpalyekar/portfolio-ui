@@ -40,7 +40,6 @@ componentDidMount(){
  render() {
  
 return (
-        <div className="portfolio-list">
         <Container>
         <Row>
         <Col>
@@ -53,7 +52,7 @@ return (
        </Col>
        </Row>
        <Row>
-        <Table striped bordered hover variant="dark">
+        <Table striped bordered hover variant="dark" responsive>
   <thead>
     <tr>
       <th>Name</th>
@@ -70,7 +69,6 @@ return (
 </Table>
 </Row>
 </Container>
-      </div>
 )
 }
 

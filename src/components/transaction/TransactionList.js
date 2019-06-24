@@ -124,7 +124,7 @@ return (
        </Col>
        </Row>
        <Row>
-        <Table bordered hover variant="dark">
+        <Table bordered hover variant="dark" responsive>
   <thead>
     <tr>
       <th>Name</th>
