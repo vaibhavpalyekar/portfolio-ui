@@ -6,6 +6,8 @@ import Transaction from './Transaction';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
+require('dotenv').config()
+
 const routing = (
   <Router>
     <div>

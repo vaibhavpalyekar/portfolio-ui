@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000/';
+const baseURL = process.env.REACT_APP_API_URL;
 export function callApi(api, method, data) {
 
     var apiBaseURL = baseURL + api + '/';
